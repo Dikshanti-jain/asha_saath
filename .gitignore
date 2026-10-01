@@ -1,0 +1,50 @@
+# Dependencies and caches
+node_modules/
+.tooling/
+.npm-cache/
+.pnpm-store/
+.expo/
+.tanstack/
+.wrangler/
+.sites-runtime/
+backend/data/
+backend/runtime/
+
+# Builds and generated output
+.next/
+.output/
+dist/
+build/
+android-bundle/
+.gradle/
+output/
+tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+serviceAccount*.json
+google-services.json
+
+# Archives and binaries
+*.apk
+*.aab
+*.zip
+*.log
+audit-current.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
