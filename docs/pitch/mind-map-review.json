@@ -1,0 +1,16 @@
+{
+  "checkedDate": "2026-10-09",
+  "footer": [
+    "Current: 24 fictional tasks · 3 document offers · cash ledger + case messages · no real NGO onboarding or money transfer",
+    "Software checks: 31 Vitest + 15 HTTP + 8 independent audit checks. Field impact and travel savings are not measured."
+  ],
+  "panelCount": 8,
+  "panelOverflow": [],
+  "panelTexts": 64,
+  "svgSize": {
+    "height": "1690",
+    "width": "2200"
+  },
+  "screenshot": "ASHA_SAATH_MIND_MAP.png",
+  "visualReview": "All eight panels inspected in full-page browser rendering; no clipping or overlap. Bounds checked for 64 panel labels. Updated synthetic cash chain/messages and 31/15/8 software footer. No field impact claimed."
+}
