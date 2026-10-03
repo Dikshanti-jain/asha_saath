@@ -1,0 +1,17 @@
+{
+  "checked_date": "2026-10-09",
+  "spoken_words": 606,
+  "section_words": [
+    80,
+    48,
+    118,
+    166,
+    89,
+    105
+  ],
+  "minutes_at_130_wpm": 4.66,
+  "timing": "Estimated only; rehearse with pauses and screen cues",
+  "mind_map": "ASHA_SAATH_MIND_MAP.svg",
+  "nodes": 8,
+  "scope": "Speech timing and diagram artifacts; app verification recorded separately"
+}
