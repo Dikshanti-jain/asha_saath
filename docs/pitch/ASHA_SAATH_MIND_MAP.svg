@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1690" viewBox="0 0 2200 1690" role="img" aria-labelledby="title desc">
+<title id="title">ASHA Saath: feasible visits to confirmed local help and cash assistance</title>
+<desc id="desc">Eight branches cover planning, ASHA and the separate approved health pathway, named-recipient support and saved case messages, document help and the synthetic cash permission-to-confirmation journey, recovery, visibility and proposed pilot metrics, real NGO onboarding and future expansion. Blue branches describe the synthetic prototype; amber branches are proposals. The application does not transfer money.</desc>
+<rect width="2200" height="1690" fill="#f5f7fa"/>
+<rect width="2200" height="8" fill="#f29d38"/>
+<style>text{font-family:Arial,"Nirmala UI",sans-serif;fill:#102a43} .title{font-size:44px;font-weight:700} .subtitle{font-size:25px;fill:#475569} .heading{font-size:28px;font-weight:700} .tag{font-size:17px;font-weight:700;letter-spacing:.6px} .body{font-size:23px} .foot{font-size:21px;fill:#475569}</style>
+<text x="60" y="68" class="title">ASHA Saath — the complete connection map</text>
+<text x="60" y="112" class="subtitle">Priority se visit. Permission se connection. Confirmation se completion.</text>
+<text x="1680" y="58" class="tag">9 OCTOBER 2026</text>
+<text x="1680" y="92" class="subtitle">Fictional demonstration</text>
+<path d="M 880 820 C 800 820 800 313 720 313" fill="none" stroke="#9aaabc" stroke-width="2"/>
+<path d="M 880 820 C 800 820 800 663 720 663" fill="none" stroke="#9aaabc" stroke-width="2"/>
+<path d="M 880 820 C 800 820 800 1013 720 1013" fill="none" stroke="#9aaabc" stroke-width="2"/>
+<path d="M 880 820 C 800 820 800 1363 720 1363" fill="none" stroke="#9aaabc" stroke-width="2"/>
+<path d="M 1320 820 C 1400 820 1400 313 1480 313" fill="none" stroke="#9aaabc" stroke-width="2"/>
+<path d="M 1320 820 C 1400 820 1400 663 1480 663" fill="none" stroke="#9aaabc" stroke-width="2"/>
+<path d="M 1320 820 C 1400 820 1400 1013 1480 1013" fill="none" stroke="#9aaabc" stroke-width="2"/>
+<path d="M 1320 820 C 1400 820 1400 1363 1480 1363" fill="none" stroke="#9aaabc" stroke-width="2"/>
+<rect x="60" y="165" width="660" height="296" rx="5" fill="#ffffff" stroke="#cbd5e1"/>
+<rect x="60" y="165" width="660" height="74" rx="5" fill="#eaf1f8"/>
+<rect x="60" y="165" width="660" height="4" fill="#1d4e89"/>
+<text x="84" y="202" class="heading">1. Feasible visit planning</text>
+<text x="84" y="227" class="tag" style="fill:#1d4e89">IMPLEMENTED · SYNTHETIC</text>
+<circle cx="89" cy="267" r="3" fill="#1d4e89"/>
+<text x="104" y="274" class="body">CSV + immutable dataset/task identity</text>
+<circle cx="89" cy="298" r="3" fill="#1d4e89"/>
+<text x="104" y="305" class="body">Approved priority and due date first</text>
+<circle cx="89" cy="329" r="3" fill="#1d4e89"/>
+<text x="104" y="336" class="body">Deferral + availability window</text>
+<circle cx="89" cy="360" r="3" fill="#1d4e89"/>
+<text x="104" y="367" class="body">Shift, travel, breaks and buffer</text>
+<circle cx="89" cy="391" r="3" fill="#1d4e89"/>
+<text x="104" y="398" class="body">Numbered order + visible unserved reasons</text>
+<circle cx="89" cy="422" r="3" fill="#1d4e89"/>
+<text x="104" y="429" class="body">Forecast keeps original task deadlines</text>
+<rect x="60" y="515" width="660" height="296" rx="5" fill="#ffffff" stroke="#cbd5e1"/>
+<rect x="60" y="515" width="660" height="74" rx="5" fill="#eaf1f8"/>
+<rect x="60" y="515" width="660" height="4" fill="#1d4e89"/>
+<text x="84" y="552" class="heading">2. ASHA and health team</text>
+<text x="84" y="577" class="tag" style="fill:#1d4e89">IMPLEMENTED · SYNTHETIC</text>
+<circle cx="89" cy="617" r="3" fill="#1d4e89"/>
+<text x="104" y="624" class="body">Next visit + clear mobile recording action</text>
+<circle cx="89" cy="648" r="3" fill="#1d4e89"/>
+<text x="104" y="655" class="body">Completed / absent / deferred outcome</text>
+<circle cx="89" cy="679" r="3" fill="#1d4e89"/>
+<text x="104" y="686" class="body">Health queue; approved pathway stays separate</text>
+<circle cx="89" cy="710" r="3" fill="#1d4e89"/>
+<text x="104" y="717" class="body">Short document-help need capture</text>
+<circle cx="89" cy="741" r="3" fill="#1d4e89"/>
+<text x="104" y="748" class="body">Official public-service pathway first</text>
+<circle cx="89" cy="772" r="3" fill="#1d4e89"/>
+<text x="104" y="779" class="body">Coordinator takes provider follow-up</text>
+<rect x="60" y="865" width="660" height="296" rx="5" fill="#ffffff" stroke="#cbd5e1"/>
+<rect x="60" y="865" width="660" height="74" rx="5" fill="#eaf1f8"/>
+<rect x="60" y="865" width="660" height="4" fill="#1d4e89"/>
+<text x="84" y="902" class="heading">3. Appropriate, consented support</text>
+<text x="84" y="927" class="tag" style="fill:#1d4e89">IMPLEMENTED · SYNTHETIC</text>
+<circle cx="89" cy="967" r="3" fill="#1d4e89"/>
+<text x="104" y="974" class="body">Category + actual locality catchment</text>
+<circle cx="89" cy="998" r="3" fill="#1d4e89"/>
+<text x="104" y="1005" class="body">Allowed mode, timing and available slots</text>
+<circle cx="89" cy="1029" r="3" fill="#1d4e89"/>
+<text x="104" y="1036" class="body">Named NGO + shared fields + permission</text>
+<circle cx="89" cy="1060" r="3" fill="#1d4e89"/>
+<text x="104" y="1067" class="body">Sequential document offer / new cash grant</text>
+<circle cx="89" cy="1091" r="3" fill="#1d4e89"/>
+<text x="104" y="1098" class="body">Scoped messages + saved read receipts</text>
+<circle cx="89" cy="1122" r="3" fill="#1d4e89"/>
+<text x="104" y="1129" class="body">Unread status; in-app communication only</text>
+<rect x="60" y="1215" width="660" height="296" rx="5" fill="#ffffff" stroke="#cbd5e1"/>
+<rect x="60" y="1215" width="660" height="74" rx="5" fill="#eaf1f8"/>
+<rect x="60" y="1215" width="660" height="4" fill="#1d4e89"/>
+<text x="84" y="1252" class="heading">4. Help and cash assistance</text>
+<text x="84" y="1277" class="tag" style="fill:#1d4e89">IMPLEMENTED · SYNTHETIC</text>
+<circle cx="89" cy="1317" r="3" fill="#1d4e89"/>
+<text x="104" y="1324" class="body">Document help: accept → reserve service slot</text>
+<circle cx="89" cy="1348" r="3" fill="#1d4e89"/>
+<text x="104" y="1355" class="body">Cash: person permits the named NGO</text>
+<circle cx="89" cy="1379" r="3" fill="#1d4e89"/>
+<text x="104" y="1386" class="body">NGO approves → reserves budget → reports</text>
+<circle cx="89" cy="1410" r="3" fill="#1d4e89"/>
+<text x="104" y="1417" class="body">Person confirms help / amount independently</text>
+<circle cx="89" cy="1441" r="3" fill="#1d4e89"/>
+<text x="104" y="1448" class="body">Coordinator closes confirmed service / cash</text>
+<circle cx="89" cy="1472" r="3" fill="#1d4e89"/>
+<text x="104" y="1479" class="body">External report ≠ app transfer or receipt</text>
+<rect x="1480" y="165" width="660" height="296" rx="5" fill="#ffffff" stroke="#cbd5e1"/>
+<rect x="1480" y="165" width="660" height="74" rx="5" fill="#eaf1f8"/>
+<rect x="1480" y="165" width="660" height="4" fill="#1d4e89"/>
+<text x="1504" y="202" class="heading">5. Trust and failure recovery</text>
+<text x="1504" y="227" class="tag" style="fill:#1d4e89">IMPLEMENTED · SYNTHETIC</text>
+<circle cx="1509" cy="267" r="3" fill="#1d4e89"/>
+<text x="1524" y="274" class="body">Declined / expired / no suitable offer</text>
+<circle cx="1509" cy="298" r="3" fill="#1d4e89"/>
+<text x="1524" y="305" class="body">Reason, current owner and next action</text>
+<circle cx="1509" cy="329" r="3" fill="#1d4e89"/>
+<text x="1524" y="336" class="body">Withdrawal ends NGO reads / message actions</text>
+<circle cx="1509" cy="360" r="3" fill="#1d4e89"/>
+<text x="1524" y="367" class="body">Disputed payment → resource reconciliation</text>
+<circle cx="1509" cy="391" r="3" fill="#1d4e89"/>
+<text x="1524" y="398" class="body">No NGO clinical details or household pins</text>
+<circle cx="1509" cy="422" r="3" fill="#1d4e89"/>
+<text x="1524" y="429" class="body">Transactions, scoped sessions and audit</text>
+<rect x="1480" y="515" width="660" height="296" rx="5" fill="#ffffff" stroke="#cbd5e1"/>
+<rect x="1480" y="515" width="660" height="74" rx="5" fill="#eaf1f8"/>
+<rect x="1480" y="515" width="660" height="4" fill="#1d4e89"/>
+<text x="1504" y="552" class="heading">6. Practical value and measurement</text>
+<text x="1504" y="577" class="tag" style="fill:#1d4e89">CURRENT VISIBILITY + PROPOSED PILOT METRICS</text>
+<circle cx="1509" cy="617" r="3" fill="#1d4e89"/>
+<text x="1524" y="624" class="body">ASHA: understandable daily work</text>
+<circle cx="1509" cy="648" r="3" fill="#1d4e89"/>
+<text x="1524" y="655" class="body">Family: assisted help and next-step visibility</text>
+<circle cx="1509" cy="679" r="3" fill="#1d4e89"/>
+<text x="1524" y="686" class="body">NGO: suitable requests within capacity</text>
+<circle cx="1509" cy="710" r="3" fill="#1d4e89"/>
+<text x="1524" y="717" class="body">Pilot: due completion by priority/locality</text>
+<circle cx="1509" cy="741" r="3" fill="#1d4e89"/>
+<text x="1524" y="748" class="body">Pilot: confirmed-help funnel + unresolved age</text>
+<circle cx="1509" cy="772" r="3" fill="#1d4e89"/>
+<text x="1524" y="779" class="body">Pilot: observed travel, workload and cost</text>
+<rect x="1480" y="865" width="660" height="296" rx="5" fill="#ffffff" stroke="#cbd5e1"/>
+<rect x="1480" y="865" width="660" height="74" rx="5" fill="#fff3dd"/>
+<rect x="1480" y="865" width="660" height="4" fill="#9a5a00"/>
+<text x="1504" y="902" class="heading">7. Real NGO connection</text>
+<text x="1504" y="927" class="tag" style="fill:#9a5a00">PROPOSED · NOT LIVE ONBOARDING</text>
+<circle cx="1509" cy="967" r="3" fill="#9a5a00"/>
+<text x="1524" y="974" class="body">Find local candidates; agree participation</text>
+<circle cx="1509" cy="998" r="3" fill="#9a5a00"/>
+<text x="1524" y="1005" class="body">Verify identity + actual service branch</text>
+<circle cx="1509" cy="1029" r="3" fill="#9a5a00"/>
+<text x="1524" y="1036" class="body">Darpan listing ≠ endorsement or capacity</text>
+<circle cx="1509" cy="1060" r="3" fill="#9a5a00"/>
+<text x="1524" y="1067" class="body">Declare village/hamlet or ward/settlement</text>
+<circle cx="1509" cy="1091" r="3" fill="#9a5a00"/>
+<text x="1524" y="1098" class="body">Check service, fees, hours and accessibility</text>
+<circle cx="1509" cy="1122" r="3" fill="#9a5a00"/>
+<text x="1524" y="1129" class="body">Test a referral; refresh dated availability</text>
+<rect x="1480" y="1215" width="660" height="296" rx="5" fill="#ffffff" stroke="#cbd5e1"/>
+<rect x="1480" y="1215" width="660" height="74" rx="5" fill="#fff3dd"/>
+<rect x="1480" y="1215" width="660" height="4" fill="#9a5a00"/>
+<text x="1504" y="1252" class="heading">8. Pilot and real-world expansion</text>
+<text x="1504" y="1277" class="tag" style="fill:#9a5a00">PROPOSED · REAL FUNDING / EXPANSION</text>
+<circle cx="1509" cy="1317" r="3" fill="#9a5a00"/>
+<text x="1524" y="1324" class="body">One PHC catchment, two ASHAs</text>
+<circle cx="1509" cy="1348" r="3" fill="#9a5a00"/>
+<text x="1524" y="1355" class="body">Funded coordinator + two-three NGO branches</text>
+<circle cx="1509" cy="1379" r="3" fill="#9a5a00"/>
+<text x="1524" y="1386" class="body">Eight weeks: prepare → baseline → use</text>
+<circle cx="1509" cy="1410" r="3" fill="#9a5a00"/>
+<text x="1524" y="1417" class="body">Real payments need an agreed external process</text>
+<circle cx="1509" cy="1441" r="3" fill="#9a5a00"/>
+<text x="1524" y="1448" class="body">Wider in-kind help after service design</text>
+<circle cx="1509" cy="1472" r="3" fill="#9a5a00"/>
+<text x="1524" y="1479" class="body">State/national aggregates after local pilots</text>
+<rect x="880" y="735" width="440" height="170" rx="8" fill="#102a43"/>
+<text x="1100" y="781" text-anchor="middle" style="fill:white;font-size:40px;font-weight:700">ASHA Saath</text>
+<text x="1100" y="820" text-anchor="middle" style="fill:white;font-size:26px">Visit → local support</text>
+<text x="1100" y="854" text-anchor="middle" style="fill:white;font-size:26px">→ person confirmation</text>
+<text x="1100" y="881" text-anchor="middle" style="fill:#cbd5e1;font-size:19px">People + process + software</text>
+<rect x="60" y="1550" width="25" height="25" fill="#1d4e89"/>
+<text x="99" y="1571" class="body">Blue: current workflow; pilot metrics labelled</text>
+<rect x="680" y="1550" width="25" height="25" fill="#9a5a00"/>
+<text x="719" y="1571" class="body">Amber: proposed real operations / future scope</text>
+<text x="60" y="1622" class="foot">Current: 24 fictional tasks · 3 document offers · cash ledger + case messages · no real NGO onboarding or money transfer</text>
+<text x="60" y="1658" class="foot">Software checks: 31 Vitest + 15 HTTP + 8 independent audit checks. Field impact and travel savings are not measured.</text>
+</svg>
