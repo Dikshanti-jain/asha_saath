@@ -1,0 +1,14 @@
+node_modules
+.npm-cache
+.output
+.tanstack
+.wrangler
+.git
+.env
+.env.*
+backend/data
+backend/runtime
+backend/test-data-*
+*.sqlite*
+*.log
+
