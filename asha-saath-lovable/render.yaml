@@ -1,0 +1,20 @@
+# Applying this blueprint creates a PAID service and 1 GB disk.
+# Review Render's displayed price before approving creation.
+services:
+  - type: web
+    name: asha-saath
+    runtime: docker
+    plan: starter
+    numInstances: 1
+    healthCheckPath: /api/health
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: ASHA_DB_PATH
+        value: /var/data/asha-saath.sqlite
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: asha-saath-data
+      mountPath: /var/data
+      sizeGB: 1
+
