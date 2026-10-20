@@ -1,0 +1,49 @@
+{
+  "synthetic": true,
+  "demoClock": "2026-10-08T09:00:00+05:30",
+  "clockMode": "frozen-and-visible",
+  "timezone": "Asia/Kolkata",
+  "sourceDatasetId": "ASHA-SAATH-DEMO-V1",
+  "tenantLabel": "Fictional demonstration catchment",
+  "shift": {
+    "end": "15:00",
+    "breakStart": "12:00",
+    "breakMinutes": 30,
+    "safetyBufferMinutes": 20,
+    "start": {"time": "09:00", "latitude": 26.9000, "longitude": 75.7000},
+    "finish": {"time": "15:00", "latitude": 26.9000, "longitude": 75.7000}
+  },
+  "travel": {"model": "haversine-estimate", "distanceMultiplier": 1.4, "speedKmh": 12, "rounding": "ceil-minutes", "fieldValidated": false},
+  "offerTtlMinutes": 60,
+  "projectionMaxDays": 7,
+  "supportCategory": "DOCUMENT_NAVIGATION",
+  "coordinator": {"id": "COORD-DEMO-01", "label": "Demo coordinator", "fundingStatus": "fictional-role-only"},
+  "staff": [
+    {"id": "ASHA-DEMO-01", "cadre": "ASHA", "assignedLocalities": ["DEMO-VILLAGE-A", "DEMO-VILLAGE-B", "DEMO-HAMLET-C"]},
+    {"id": "ASHA-DEMO-02", "cadre": "ASHA", "assignedLocalities": ["DEMO-WARD-1", "DEMO-SETTLEMENT-2"]}
+  ],
+  "rules": [
+    {"id": "DEMO-ROUTINE", "version": 1, "status": "SYNTHETIC_ACTIVE", "clinicalAuthorityApproved": false, "description": "Generic invented visit task; priority supplied by fixture"},
+    {"id": "DEMO-JOINT", "version": 1, "status": "SYNTHETIC_ACTIVE", "clinicalAuthorityApproved": false, "description": "Joint visit requires authorized coordination; not assigned as an independent ASHA completion"},
+    {"id": "DEMO-ESCALATION", "version": 1, "status": "SYNTHETIC_ACTIVE", "clinicalAuthorityApproved": false, "description": "Invented escalation flag; no live clinical instruction/contact"}
+  ],
+  "geographies": [
+    {"id": "DEMO-STATE", "level": "state", "name": "Fictional State", "synthetic": true},
+    {"id": "DEMO-DISTRICT", "parentId": "DEMO-STATE", "level": "district", "name": "Fictional District", "synthetic": true},
+    {"id": "DEMO-BLOCK", "parentId": "DEMO-DISTRICT", "level": "block", "name": "Demo Rural Block", "areaType": "rural", "synthetic": true},
+    {"id": "DEMO-VILLAGE-A", "parentId": "DEMO-BLOCK", "level": "village", "name": "Demo Village A", "areaType": "rural", "synthetic": true},
+    {"id": "DEMO-VILLAGE-B", "parentId": "DEMO-BLOCK", "level": "village", "name": "Demo Village B", "areaType": "rural", "synthetic": true},
+    {"id": "DEMO-HAMLET-C", "parentId": "DEMO-VILLAGE-B", "level": "hamlet", "name": "Demo Hamlet C", "areaType": "rural", "synthetic": true},
+    {"id": "DEMO-WARD-1", "parentId": "DEMO-DISTRICT", "level": "ward", "name": "Demo Ward 1", "areaType": "urban", "synthetic": true},
+    {"id": "DEMO-SETTLEMENT-2", "parentId": "DEMO-WARD-1", "level": "settlement", "name": "Demo Settlement 2", "areaType": "urban", "synthetic": true}
+  ],
+  "publicPathway": {
+    "title": "Public scheme discovery and document checklist navigation",
+    "sourceUrl": "https://www.myscheme.gov.in/",
+    "checkedAt": "2026-10-08",
+    "jurisdiction": "Informational discovery; authority-specific application process",
+    "steps": ["Open the official programme page", "Read that programme's current eligibility and document checklist", "Confirm next application step with the authorized service channel"],
+    "eligibilityDecision": false,
+    "applicationSubmitted": false
+  }
+}
