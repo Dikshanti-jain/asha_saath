@@ -1,0 +1,8 @@
+{
+  "cli": { "version": ">=16.0.0", "appVersionSource": "local" },
+  "build": {
+    "preview": { "distribution": "internal", "env": { "ASHA_ALLOW_LOCAL_HTTP": "0" }, "android": { "buildType": "apk" } },
+    "local-demo": { "distribution": "internal", "env": { "ASHA_ALLOW_LOCAL_HTTP": "1" }, "android": { "buildType": "apk" } },
+    "production": { "env": { "ASHA_ALLOW_LOCAL_HTTP": "0" }, "android": { "buildType": "app-bundle" } }
+  }
+}
