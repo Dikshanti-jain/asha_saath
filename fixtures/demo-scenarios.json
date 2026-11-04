@@ -1,0 +1,12 @@
+{
+  "synthetic": true,
+  "clockReset": "2026-10-08T09:00:00+05:30",
+  "scenarios": [
+    {"id": "S-PLAN", "name": "Original PS and immutable projection", "actions": ["Import 24-task CSV twice", "Plan ASHA-DEMO-01", "Inspect locality/priority/time/unserved", "Project three days without changing due dates"], "expected": ["24 unique tasks", "Feasible modeled shift", "Every task accounted for", "No duplicate projected task"]},
+    {"id": "S-SUPPORT", "name": "Wrong catchment, decline, alternative confirmed", "needLocality": "DEMO-VILLAGE-A", "category": "DOCUMENT_NAVIGATION", "actions": ["Record visit TASK-001 completed", "Create need and review public pathway", "Record scoped consent for OFFER-DEMO-B", "Exclude OFFER-DEMO-A: actual catchment mismatch", "Offer B while initial capacity is fresh", "Provider B declines CAPACITY_FULL and updates current availability", "Coordinator records applicable consent for C", "Offer C", "Provider C accepts", "Arrange", "Report delivered", "Worker records recipient confirmation", "Coordinator closes"], "expected": ["No offer to A", "B declined is unresolved until recovery", "Exactly one active allocation to C", "Report alone does not close", "Confirmation precedes closure"]},
+    {"id": "S-EXPIRY", "name": "No response", "actions": ["Offer with 60-minute TTL", "Advance visible demo clock beyond TTL", "Run guarded expiry"], "expected": ["EXPIRED attempt", "UNRESOLVED need", "Coordinator owner and next action", "No success count"]},
+    {"id": "S-WITHDRAW", "name": "Withdraw before supplied help", "actions": ["Accept C for one need", "Withdraw current consent before delivery", "Attempt provider query and delivery command"], "expected": ["WITHDRAWN need", "Provider access denied", "Unused allocation released", "Later command blocked"]},
+    {"id": "S-RACE", "name": "Last-unit concurrency", "actions": ["Reset C capacity to one unit", "Create two consented needs with different active attempts", "Accept both simultaneously from independent sessions"], "expected": ["Exactly one acceptance", "One capacity conflict", "No duplicate reservation"], "requires": "Real transactional backend; synthetic UI cannot prove this"},
+    {"id": "S-OFFLINE", "name": "Downloaded plan and queued entry", "actions": ["Download authorized synthetic plan", "Disconnect", "Record visit/need draft", "Attempt capacity acceptance", "Reconnect and replay"], "expected": ["Plan readable", "Pending sync visible", "Offline acceptance unavailable", "One guarded replay"], "phase": "P1"}
+  ]
+}

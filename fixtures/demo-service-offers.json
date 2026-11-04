@@ -1,0 +1,72 @@
+{
+  "synthetic": true,
+  "category": "DOCUMENT_NAVIGATION",
+  "providers": [
+    {
+      "organizationId": "ORG-DEMO-A",
+      "name": "Demo Outreach A (fictional)",
+      "branchId": "BRANCH-DEMO-A",
+      "registrationStatus": "SYNTHETIC_REFERENCE_ONLY",
+      "governmentEndorsement": false,
+      "participationStatus": "SYNTHETIC_PARTICIPANT",
+      "offer": {
+        "id": "OFFER-DEMO-A",
+        "category": "DOCUMENT_NAVIGATION",
+        "mode": "ASSISTED_LOCAL",
+        "officeLocality": "DEMO-VILLAGE-A",
+        "catchments": ["DEMO-VILLAGE-B"],
+        "eligibilityRule": "Synthetic document-navigation need within listed catchment",
+        "verificationStatus": "SYNTHETIC_SERVICE_VERIFIED",
+        "verifiedAt": "2026-10-08T08:00:00+05:30",
+        "expiresAt": "2026-10-09T17:00:00+05:30",
+        "unitsPerCase": 1,
+        "resourceUnit": "assistance_slot",
+        "capacity": {"id": "CAP-DEMO-A", "startsAt": "2026-10-08T09:00:00+05:30", "endsAt": "2026-10-08T17:00:00+05:30", "totalUnits": 2, "confirmedAt": "2026-10-08T08:30:00+05:30", "freshUntil": "2026-10-08T12:00:00+05:30", "reservedUnits": 0, "committedUnits": 0, "reconciliationUnits": 0}
+      }
+    },
+    {
+      "organizationId": "ORG-DEMO-B",
+      "name": "Demo Help Desk B (fictional)",
+      "branchId": "BRANCH-DEMO-B",
+      "registrationStatus": "SYNTHETIC_REFERENCE_ONLY",
+      "governmentEndorsement": false,
+      "participationStatus": "SYNTHETIC_PARTICIPANT",
+      "offer": {
+        "id": "OFFER-DEMO-B",
+        "category": "DOCUMENT_NAVIGATION",
+        "mode": "ASSISTED_REMOTE",
+        "officeLocality": "DEMO-WARD-1",
+        "catchments": ["DEMO-VILLAGE-A", "DEMO-WARD-1"],
+        "eligibilityRule": "Synthetic document-navigation need within listed catchment; person prefers assisted remote contact",
+        "verificationStatus": "SYNTHETIC_SERVICE_VERIFIED",
+        "verifiedAt": "2026-10-08T08:00:00+05:30",
+        "expiresAt": "2026-10-09T17:00:00+05:30",
+        "unitsPerCase": 1,
+        "resourceUnit": "assistance_slot",
+        "capacity": {"id": "CAP-DEMO-B", "startsAt": "2026-10-08T09:00:00+05:30", "endsAt": "2026-10-08T17:00:00+05:30", "totalUnits": 1, "confirmedAt": "2026-10-08T08:30:00+05:30", "freshUntil": "2026-10-08T12:00:00+05:30", "reservedUnits": 0, "committedUnits": 0, "reconciliationUnits": 0}
+      }
+    },
+    {
+      "organizationId": "ORG-DEMO-C",
+      "name": "Demo Support Centre C (fictional)",
+      "branchId": "BRANCH-DEMO-C",
+      "registrationStatus": "SYNTHETIC_REFERENCE_ONLY",
+      "governmentEndorsement": false,
+      "participationStatus": "SYNTHETIC_PARTICIPANT",
+      "offer": {
+        "id": "OFFER-DEMO-C",
+        "category": "DOCUMENT_NAVIGATION",
+        "mode": "ASSISTED_LOCAL",
+        "officeLocality": "DEMO-VILLAGE-B",
+        "catchments": ["DEMO-VILLAGE-A", "DEMO-VILLAGE-B", "DEMO-WARD-1"],
+        "eligibilityRule": "Synthetic document-navigation need within listed catchment",
+        "verificationStatus": "SYNTHETIC_SERVICE_VERIFIED",
+        "verifiedAt": "2026-10-08T08:00:00+05:30",
+        "expiresAt": "2026-10-09T17:00:00+05:30",
+        "unitsPerCase": 1,
+        "resourceUnit": "assistance_slot",
+        "capacity": {"id": "CAP-DEMO-C", "startsAt": "2026-10-08T09:00:00+05:30", "endsAt": "2026-10-08T17:00:00+05:30", "totalUnits": 1, "confirmedAt": "2026-10-08T08:30:00+05:30", "freshUntil": "2026-10-08T12:00:00+05:30", "reservedUnits": 0, "committedUnits": 0, "reconciliationUnits": 0}
+      }
+    }
+  ]
+}
