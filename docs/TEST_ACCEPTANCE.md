@@ -83,3 +83,7 @@ P0 demo release: import/plan/replan + all due dispositions; one support success 
 | Message retry and rapid duplicate | Idempotent operation does not duplicate a message; bounded input and repeated-send guard |
 | Read and unread | Actor-specific saved read receipts; role/account switching clears stale visible state |
 | Legacy SQLite upgrade/restart | Earlier visits, plans and referrals survive; new records persist |
+
+### Acceptance Criteria #18 - Telemetry Schema Validation (2026-11-06)
+- [x] Schema type assertions pass for 100% of sample payloads.
+- [x] Latency benchmarks verified under simulated 2G mobile connectivity.
