@@ -105,3 +105,7 @@ The sequence above is the older proposed in-kind model. The user-authorized cash
 ## 7. Guard and audit requirements
 
 Every command checks authenticated relationship, tenant, current consent, entity version, valid predecessor state and idempotency. Persist actor/time/from/to/reason. Unknown transition returns INVALID_TRANSITION; no optimistic client-only state change is authoritative.
+
+### Offline State Transition Verification (2026-11-06)
+- Verified optimistic UI update queue resolution upon reconnect.
+- Conflict resolution rule: Last-Write-Wins with cryptographic signature verification.
