@@ -42,3 +42,6 @@ export async function POST(request: Request){
     return output({ok:false,error:"VERSION_CONFLICT",message:"Concurrent change; please refresh and try again"},409);
   }catch(error){const e=error as Error & {code?:string};return output({ok:false,error:e.code||"SERVER_ERROR",message:e.message},e.code==="UNAUTHENTICATED"?401:e.code==="FORBIDDEN"?403:409);}
 }
+
+// Circuit breaker configuration for high-traffic NGO telemetry
+export const GATEWAY_CIRCUIT_BREAKER_TIMEOUT_MS = 5000;
