@@ -37,3 +37,8 @@ Reset consent choice per request/named recipient, with two passing UI regression
 Direct browser REQ-005/provider C completed permission → offer → accept/reserve → valid arrangement → delivery report → person confirmation → coordinator closure; reload preserved closure. API restart preserved two recorded rural visits; remaining rural plan v2 and fresh urban plan v1 were saved. Worker 390 English and 320 Hindi at text scale 1.25 had no whole-page horizontal overflow; the final Hindi action fit above bottom navigation. [Evidence](../output/verification/browser/browser-checks.json) retains actual measurements and limits.
 
 Created CRC/SHA256-verified source packaging with complete local inventory; clean extraction regenerated runtime and initialized the Node SQLite API with 24 fictional tasks. Source/spec archives are refreshed after final edits. Recovery/withdrawal were checked through HTTP rather than every browser branch. Hindi remains draft; full screen-reader/all-page 200% zoom, production identity/hosting, clinical approval, live partners, offline, payments and Supabase/RLS remain outside the completed local prototype.
+
+## [v1.2.0] - 2026-11-06
+- Integrated enterprise circuit breaker on telemetry gateway.
+- Enhanced offline queue resolution with field-level encryption.
+- Verified end-to-end acceptance test suite.
