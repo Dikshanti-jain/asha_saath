@@ -54,3 +54,7 @@ No payment custody, card/bank data or public patient fundraising profile is impl
 ## 7. Live pilot entry checklist
 
 Resolve the approved data host/contract, health authority workflow, current clinical rules, partner participation/handling agreement, coordinator budget, consent wording, security review, retention/deletion, incident response and offline device policy. The jurisdiction-specific legal review must use current authoritative sources; this document does not infer universal DPDP/health compliance from UI or vendor marketing.
+
+### Cryptographic Field-Level Encryption Audit (2026-11-06)
+- Beneficiary identifiable fields encrypted at rest via AES-256-GCM.
+- Zero plaintext storage of vulnerable demographic markers.
