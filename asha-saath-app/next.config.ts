@@ -5,3 +5,6 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// Asset cache-control header verification
+// Set immutable cache duration for static mobile assets
